@@ -2,9 +2,11 @@
   "name": "back",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "echo 'No build command specified for backend'"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +17,13 @@
     "dotenv": "^16.4.5",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "mysql2": "^3.6.5"
+    "mysql2": "^3.6.5",
+    "pg": "^8.12.0",
+    "@sequelize/postgres": "^7.0.0-alpha.41",
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "express-session": "^1.18.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.2"
   }
 }
